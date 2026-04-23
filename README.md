@@ -14,6 +14,20 @@
 
 ---
 
+---
+
+## 🏆 5-Star Achievement on HackerRank
+
+![HackerRank 5-Star Badge](https://img.shields.io/badge/HackerRank-5⭐%20Python%20Badge-1ba94c?style=for-the-badge&logo=hackerrank)
+
+I'm proud to share that I have earned the **5-star badge in Python** on HackerRank. This achievement represents not just solving problems, but building consistent logic, writing clean code, and mastering Python's core and intermediate concepts — from basic syntax to collections, iterators, and built-in functions.
+
+You can verify my progress here: [HackerRank Profile](https://www.hackerrank.com/profile/ualiurrahat25)
+
+This repository is the **exact codebase** that helped me earn those stars — and now it's here to help you do the same.
+
+---
+
 ## 📖 About This Repository
 
 This repository contains my solutions to **HackerRank's Python Domain** problems — solved, documented, and organized topic by topic. Each solution goes beyond just passing the test cases — files include comments explaining the approach, the Python features used, and why the solution works the way it does.
@@ -79,32 +93,43 @@ hackerrank-python-coding-solutions/
     ├── 06_set_intersection.py             (& operator, intersection())
     ├── 07_set_difference.py               (- operator, difference())
     └── 08_check_subset.py                 (issubset(), issuperset())
+
+├── 05 Collections/ ← 2 problems (growing)
+│ ├── 01_collections_counter.py (Counter from collections module)
+│ └── 02_defaultdict_tutorial.py (defaultdict for automatic missing keys)
+│
+└── 06 Built-ins/ ← 3 problems
+├── 01_zipped.py (zip() for parallel iteration)
+├── 02_any_and_all.py (any(), all() for truth value testing)
+└── 03_eval.py (eval() for dynamic expression evaluation)
+
+
 ```
 
 ---
 
 ## 📊 Progress at a Glance
 
-| #   | Topic                   | Solved | Status      |
-| --- | ----------------------- | ------ | ----------- |
-| 01  | Introduction            | 7      | ✅ Complete |
-| 02  | Basic Data Types        | 6      | ✅ Complete |
-| 03  | Strings                 | 10     | ✅ Complete |
-| 04  | Sets                    | 8      | ✅ Complete |
-| 🔄  | Math                    | —      | Coming Soon |
-| 🔄  | Itertools               | —      | Coming Soon |
-| 🔄  | Collections             | —      | Coming Soon |
-| 🔄  | Date and Time           | —      | Coming Soon |
-| 🔄  | Errors and Exceptions   | —      | Coming Soon |
-| 🔄  | Classes                 | —      | Coming Soon |
-| 🔄  | Built-ins               | —      | Coming Soon |
-| 🔄  | Python Functionals      | —      | Coming Soon |
-| 🔄  | Regex and Parsing       | —      | Coming Soon |
-| 🔄  | XML                     | —      | Coming Soon |
-| 🔄  | Closures and Decorators | —      | Coming Soon |
-| 🔄  | NumPy                   | —      | Coming Soon |
+| #   | Topic                   | Solved | Status         |
+| --- | ----------------------- | ------ | -------------- |
+| 01  | Introduction            | 7      | ✅ Complete    |
+| 02  | Basic Data Types        | 6      | ✅ Complete    |
+| 03  | Strings                 | 10     | ✅ Complete    |
+| 04  | Sets                    | 8      | ✅ Complete    |
+| 05  | Collections             | 2      | 🟡 In Progress |
+| 06  | Built-ins               | 3      | 🟡 In Progress |
+| 🔄  | Math                    | —      | Coming Soon    |
+| 🔄  | Itertools               | —      | Coming Soon    |
+| 🔄  | Date and Time           | —      | Coming Soon    |
+| 🔄  | Errors and Exceptions   | —      | Coming Soon    |
+| 🔄  | Classes                 | —      | Coming Soon    |
+| 🔄  | Python Functionals      | —      | Coming Soon    |
+| 🔄  | Regex and Parsing       | —      | Coming Soon    |
+| 🔄  | XML                     | —      | Coming Soon    |
+| 🔄  | Closures and Decorators | —      | Coming Soon    |
+| 🔄  | NumPy                   | —      | Coming Soon    |
 
-**Total solved so far: 31 problems · 4 topic chapters · Actively growing**
+**Total solved so far: 36 problems · 6 topic chapters · Actively growing**
 
 > 📌 **Star / Watch this repo** to follow along as more chapters are completed!
 
@@ -120,6 +145,7 @@ Most HackerRank solution repos are just raw code with no explanation — copy-pa
 - ✅ **Topic-organized folders** — find any problem instantly by its category
 - ✅ **Consistent file structure** — every file follows the same professional template
 - ✅ **Actively maintained** — new solutions added as learning progresses
+- ✅ **5-star proven** — every solution here contributed to earning the top HackerRank Python badge
 
 ---
 
@@ -127,7 +153,7 @@ Most HackerRank solution repos are just raw code with no explanation — copy-pa
 
 Every solution file follows a consistent, professional format:
 
-```python
+````python
 # =============================================================
 # File      : 05_find_a_string.py
 # Chapter   : 03 Strings
@@ -170,9 +196,7 @@ if __name__ == "__main__":
     string = input()
     sub_string = input()
     print(count_substring(string, sub_string))
-```
 
----
 
 ## 🚀 How to Use This Repository
 
@@ -181,7 +205,7 @@ if __name__ == "__main__":
 ```bash
 git clone https://github.com/ualiurrahat/hackerrank-python-coding-solutions.git
 cd hackerrank-python-coding-solutions
-```
+````
 
 ### Run Any Solution Locally
 
